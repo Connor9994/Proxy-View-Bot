@@ -25,8 +25,8 @@ nodriver==0.38.post1
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Connor9994/Proxy-View-Bot
+   cd Proxy-View-Bot
    ```
 
 2. **Install the required libraries:**
