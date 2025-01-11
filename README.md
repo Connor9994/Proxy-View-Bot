@@ -15,12 +15,6 @@ This is a Python script that allows you to launch multiple browsers asynchronous
 - Python 3.7 or higher
 - `nodriver` library
 
-You can install the required library by adding the following to your `requirements.txt`:
-
-```
-nodriver==0.38.post1
-```
-
 ## Installation
 
 1. **Clone the repository:**
@@ -41,16 +35,17 @@ nodriver==0.38.post1
 
 4. **Set your Chrome executable path:**
    Update the `browserPath` variable in the script to point to your own Chrome executable location if necessary.
+   
+   Note: We used a Chormium folder inside of the local directory. We had issues accessing Chrome directly in the Program Files folder.
+   https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/
 
 ## Usage
 
 To run the script, simply execute:
 
 ```bash
-python script_name.py
+python "Proxy View Bot.py"
 ```
-
-Replace `script_name.py` with the actual name of your Python file.
 
 ## Customization
 
@@ -63,10 +58,6 @@ You can customize the following parameters in the script:
 - Make sure to handle proxies responsibly and in compliance with the terms of service of the websites you are accessing.
 - This script is intended for educational purposes and should be used ethically.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
-
 ## Contributing
 
 If you have suggestions for improvements or feature requests, please feel free to open an issue or submit a pull request.  
@@ -75,7 +66,3 @@ If you have suggestions for improvements or feature requests, please feel free t
 
 - [nodriver](https://pypi.org/project/nodriver/) - The library used for controlling the browser instances.  
 - Special thanks to the open-source community for their invaluable contributions!
-
----
-
-Feel free to modify the content as per your project details and requirements!
