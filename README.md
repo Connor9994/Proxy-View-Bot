@@ -1,6 +1,6 @@
 # Asynchronous Browser Manager
 
-This is a Python script that allows you to launch multiple browsers asynchronously, each with its own configuration, using the `nodriver` library. The script randomly selects user agents and proxies, opens specified links in separate browser instances, and sets their window size and position.
+This is a Python script that allows you to launch multiple browsers asynchronously, each with its own configuration, using the `nodriver` library. The script randomly selects user agents and proxies, opens specified links in separate browser instances (sets their window size and position so each bot has different values when viewing).
 
 ## Features
 
